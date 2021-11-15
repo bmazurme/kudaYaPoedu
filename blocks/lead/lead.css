@@ -1,6 +1,6 @@
 .lead {
   display: grid;
-  margin-top: 100px;
+  margin: 125px 100px 0;
   /* gap: 50px; */
   grid-template-columns: 1fr 500px;
   grid-template-rows: 1fr 1fr;
