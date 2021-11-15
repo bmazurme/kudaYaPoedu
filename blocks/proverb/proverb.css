@@ -1,0 +1,8 @@
+.proverb {
+  width: 25%;
+  margin-right: 50px;
+}
+
+.proverb:last-child {
+  margin-right: 0;
+}

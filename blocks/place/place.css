@@ -1,0 +1,33 @@
+.place {
+  width: 100%;
+  max-height: 600px;
+  /* margin-top: 150px; */
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    "image title"
+    "image text";
+}
+
+.place:nth-child(2n) {
+  width: 100%;
+  min-height: 600px;
+  /* margin-top: 150px; */
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+
+  display: grid;
+  gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas:
+    "title image"
+    "text image";
+}

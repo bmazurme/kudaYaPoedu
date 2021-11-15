@@ -1,5 +1,6 @@
 .lead__image {
-  max-width: 390px;
-  max-height: 390px;
-  align-items: flex-end;
+  grid-area: image;
+  max-width: 395px;
+  max-height: 395px;
+  margin-right: 50px;
 }

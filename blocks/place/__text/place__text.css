@@ -1,0 +1,7 @@
+.place__text {
+  grid-area: text;
+  margin-top: 100px;
+  margin-left: 70px;
+  margin-right: 0;
+  margin-bottom: 20;
+}
