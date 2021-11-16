@@ -7,3 +7,28 @@
   align-items: center;
   background-color: rgb(242, 204, 167);
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    margin-top: 64px;
+    margin-left: 16px;
+    margin-right: auto;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and ( max-width: 1023px) {
+  .footer {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) and ( max-width: 11920px) {
+  .footer {
+    margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
