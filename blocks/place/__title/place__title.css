@@ -1,4 +1,12 @@
 .place__title {
-  margin: 68px 80px 212px 80px;
-  font-size: 38px;
+  /*margin: 90px 80px 0 110px;*/
+  margin: 0;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 25px;
+    margin-bottom: 60px;
+  }
 }

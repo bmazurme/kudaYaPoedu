@@ -1,6 +1,7 @@
 .places {
-  margin-top: 154px;
-  display: flex;
+  /* уточнить маржин по макету */
+  margin-top: 155px;
+  /*display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  flex-wrap: wrap;*/
 }
