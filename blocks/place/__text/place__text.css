@@ -1,7 +1,9 @@
 .place__text {
-  grid-area: text;
-  margin-top: 100px;
-  margin-left: 70px;
-  margin-right: 0;
-  margin-bottom: 20;
+  margin-bottom: 0;
+  padding-bottom: 60px; 
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 480px;
+  justify-content: center;
 }

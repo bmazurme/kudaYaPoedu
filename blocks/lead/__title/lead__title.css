@@ -1,8 +1,6 @@
 .lead__title {
   grid-area: title;
-
   color: black;
   font-weight: 900;
   font-size: 37px;
-  /* line-height: 30px; */
 }

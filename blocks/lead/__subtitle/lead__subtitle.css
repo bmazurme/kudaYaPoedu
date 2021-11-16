@@ -1,5 +1,10 @@
 .lead__subtitle {
   grid-area: subtitle;
-  margin-top: 120px;
+  margin-top: 125px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
   text-transform: uppercase;
+  color:  rgb(242, 204, 167);
 }

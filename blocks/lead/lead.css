@@ -1,9 +1,8 @@
 .lead {
   display: grid;
-  margin: 125px 100px 0;
-  /* gap: 50px; */
+  margin: 96px 75px 0;
   grid-template-columns: 1fr 500px;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 150px 1fr;
   grid-template-areas:
     "subtitle image"
     "title image";
