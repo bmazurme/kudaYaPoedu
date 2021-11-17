@@ -23,3 +23,11 @@
     padding-right: 20px;
   }
 }
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__title {
+    font-size: 2.89vw;
+    line-height: 3.75vw; 
+    padding-right: 20px;
+  }
+}
