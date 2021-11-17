@@ -1,6 +1,7 @@
 .lead {
   display: grid;
   margin: 96px 75px 0;
+  gap: 26px 0;
   grid-template-columns: 1fr 500px;
   grid-template-rows: 150px 1fr;
   grid-template-areas:
@@ -47,7 +48,6 @@
     margin-bottom: 0;
     margin-left: 75px;
     margin-right: 75px;
-    /* margin: 96px 75px 0; */
     grid-template-columns: 1fr 395px;
     grid-template-rows: 150px 1fr;
     grid-template-areas:

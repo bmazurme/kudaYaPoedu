@@ -8,9 +8,9 @@
 @media screen and (max-width: 767px) {
   .proverb__title {
     width: 100%;
-    margin-top: 0;
+    /* margin-top: 0;
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 0; */
   }
 }

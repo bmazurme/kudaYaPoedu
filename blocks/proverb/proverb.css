@@ -1,18 +1,33 @@
 .proverb {
-  width: 25%;
-  margin-right: 50px;
-}
-
-.proverb:last-child {
+  /* grid-area: column; */
+  margin: 0;
+  /* width: 25%;
+  margin-top: 0;
+  margin-left: 0;
   margin-right: 0;
+  margin-right: 50px; */
 }
 
-@media screen and (max-width: 767px) {
+/* .proverb:last-child {
+  margin-right: 0;
+} */
+
+/* @media screen and (max-width: 767px) {
   .proverb {
     width: 100%;
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+} */
+
+/* @media screen and (min-width: 320px) and (max-width: 767px){
+  .proverb {
+    width: 100%;
+    margin-bottom: 10px;
   }
 }
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .proverb {
+    width: 50%;
+  }
+} */
