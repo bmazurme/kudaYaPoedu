@@ -2,5 +2,12 @@
   margin: 0;
   text-transform: uppercase;
   color:  rgb(242, 204, 167);
-  font-size: 12px;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 767px) {
+  .proverbs__subtitle {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
