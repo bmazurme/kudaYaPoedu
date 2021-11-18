@@ -1,23 +1,18 @@
 .lead__subtitle {
   grid-area: subtitle;
+  font-size: 16px;
+  line-height: 16px;
   margin-top: 130px;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
   padding: 0;
   text-transform: uppercase;
-  color:  rgb(242, 204, 167);
+  color: rgb(242, 204, 167);
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
   .lead__subtitle {
-    font-size: 16px;
-    line-height: 16px;
     margin-top: 20px;
-    margin-left: 0;
-    margin-right: 0;
-    padding: 0;
-    text-transform: uppercase;
-    color:  rgb(242, 204, 167);
   }
 }

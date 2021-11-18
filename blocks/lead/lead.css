@@ -11,7 +11,6 @@
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .lead {
-    display: grid;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 6px;
@@ -27,7 +26,6 @@
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .lead {
-    display: grid;
     margin-top: 0;
     margin-bottom: 0;
     margin-left: 50px;
