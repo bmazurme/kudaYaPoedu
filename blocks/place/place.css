@@ -7,16 +7,6 @@
   grid-template-rows: 1fr;
 }
 
-@media screen and (max-width: 1280px) {
-  .place {
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .place {
-  }
-}
-
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 1fr;

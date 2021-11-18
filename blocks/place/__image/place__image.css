@@ -1,13 +1,33 @@
 .place__image {
   width: 100%;
-  height: calc(1200/1450*50vw);
+  height: calc(1200/1450/2*1920px);
   object-fit: cover;
   object-position: center;
+}
+
+@media screen and (max-width: 1920px) {
+  .place__image {
+    height: calc(1200/1450*50vw);
+  }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
     height: calc(1200/1450*100vw);
     grid-row: 1/2;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .place__image {
+    height: 100vw;
+    grid-row: 1/2;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
   }
 }
