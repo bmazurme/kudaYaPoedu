@@ -18,9 +18,9 @@
     grid-template-columns: 100%;
     grid-template-rows: max-content max-content max-content;
     grid-template-areas:
+      "image"
       "subtitle"
-      "title"
-      "image";
+      "title";
   }
 }
 
@@ -33,9 +33,9 @@
     grid-template-columns: 100%;
     grid-template-rows: max-content max-content max-content;
     grid-template-areas:
+      "image"
       "subtitle"
-      "title"
-      "image";
+      "title";
   }
 }
 
