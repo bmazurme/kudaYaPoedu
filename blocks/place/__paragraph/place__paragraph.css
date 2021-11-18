@@ -53,23 +53,27 @@
 @media screen and (max-width: 768px) {
   .place__paragraph {
     line-height: 1.1;
+    max-width: calc(100vw * 0.75);
   }
 }
 
 @media screen and (max-width: 600px) {
   .place__paragraph {
     font-size: 12px;
+    max-width: calc(100vw * 0.75);
   }
 }
 
 @media screen and (max-width: 420px) {
   .place__paragraph {
     font-size: 11px;
+    max-width: calc(100vw * 0.75);
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     font-size: 10px;
+    max-width: calc(100vw * 0.75);
   }
 }

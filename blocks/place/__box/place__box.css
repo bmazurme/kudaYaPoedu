@@ -26,30 +26,34 @@
 
 @media screen and (max-width: 1024px) {
   .place__box {
-    padding: 40px;
+    padding: 60px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__box {
-    padding: 35px;
+    padding: 60px;
+    min-height: 40vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   .place__box {
-    padding: 20px;
+    padding: 50px;
+    min-height: 40vw;
   }
 }
 
 @media screen and (max-width: 420px) {
   .place__box {
-    padding: 15px;
+    padding: 40px;
+    min-height: 40vw;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__box {
-    padding: 10px;
+    padding: 40px;
+    min-height: 40vw;
   }
 }

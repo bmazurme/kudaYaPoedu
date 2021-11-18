@@ -11,24 +11,24 @@
 
 @media screen and (min-width: 320px) and (max-width: 479px) {
   .lead {
-    margin: 30px 10px;
+    margin: 30px 10px 60px 10px;
     grid-template-columns: 100%;
     grid-template-rows: max-content max-content max-content;
     grid-template-areas:
-      "subtitle"
       "image"
+      "subtitle"
       "title";
   }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .lead {
-    margin: 80px 30px;
+    margin: 80px 30px 60px 30px;
     grid-template-columns: 100%;
     grid-template-rows: max-content max-content max-content;
     grid-template-areas:
+      "image"  
       "subtitle"
-      "image"
       "title";
   }
 }
