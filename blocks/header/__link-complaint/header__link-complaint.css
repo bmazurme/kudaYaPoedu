@@ -12,6 +12,11 @@
   transform: all 0.3s;
 }
 
+.header__link-complaint:hover .tooltip {
+  opacity: 1;
+	visibility: visible;
+}
+
 @media screen and (max-width: 767px) {
   .header__link-complaint {
     font-size: 14px;
