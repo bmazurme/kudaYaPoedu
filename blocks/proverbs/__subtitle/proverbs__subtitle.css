@@ -2,5 +2,25 @@
   margin: 0;
   text-transform: uppercase;
   color:  rgb(242, 204, 167);
-  font-size: 16px;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1280px) {
+  .proverbs__subtitle {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .proverbs__subtitle {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .proverbs__subtitle {
+    font-size: 12px;
+  }
 }

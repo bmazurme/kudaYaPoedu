@@ -1,6 +1,6 @@
 .footer {
-  min-height: 36vw;
-  font-size: 2vw;
+  min-height: 960px;
+  font-size: 50px;
   font-weight: 900;
   display: flex;
   justify-content: center;
@@ -8,18 +8,30 @@
   background-color: rgb(242, 204, 167);
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 1920px) {
   .footer {
-    font-size: 16px;
-    margin-left: 0;
-    margin-right: 0;
-    flex-direction: column;
+    min-height: calc(960/1920*100vw);
   }
 }
 
-@media screen and (min-width: 1920px) {
+@media screen and (max-width: 1536px) {
   .footer {
-    min-height: 690px;
-    font-size: 38px;
+    min-height: calc(660/1920*100vw);
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-size: 30px;
+    min-height: calc(500/1920*100vw);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    font-size: 25px;
+    min-height: 50px;
+    justify-content: end;
   }
 }

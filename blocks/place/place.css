@@ -5,11 +5,26 @@
   gap: 0;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  grid-template-areas:
+    'image box';
+}
+
+.place:nth-child(2n) {
+  grid-template-areas:
+    'box image';
 }
 
 @media screen and (max-width: 768px) {
   .place {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    grid-template-areas:
+    'image'
+    'box';
+  }
+  .place:nth-child(2n) {
+    grid-template-areas:
+      'image'
+      'box';
   }
 }

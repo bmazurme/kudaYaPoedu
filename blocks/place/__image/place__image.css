@@ -3,6 +3,7 @@
   height: calc(1200/1450/2*1920px);
   object-fit: cover;
   object-position: center;
+  grid-area: image;
 }
 
 @media screen and (max-width: 1920px) {

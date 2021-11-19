@@ -1,12 +1,32 @@
 .proverb__title {
-  margin: 0;
-  font-size: 14px;
+  margin: 0 0 55px;
+  font-size: 18px;
   text-transform: uppercase;
-  line-height: 16px;
+  line-height: 1;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1536px) {
   .proverb__title {
-    width: 100%;
+    margin-bottom: calc(25/1536*100vw);
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .proverb__title {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .proverb__title {
+    font-size: 14px;
+    margin-bottom: calc(10/768*100vw);
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .proverb__title {
+    font-size: 12px;
   }
 }
