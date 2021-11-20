@@ -33,5 +33,6 @@
     font-size: 25px;
     min-height: 50px;
     justify-content: end;
+    padding: 0 10px;
   }
 }
